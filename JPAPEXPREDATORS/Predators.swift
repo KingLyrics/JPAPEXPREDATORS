@@ -27,4 +27,25 @@ class Predators{
             }
         }
     }
+    
+    func search(for searchTerm:String)->[ApexPredator]{
+        if searchTerm.isEmpty {
+            return apexPreadators
+        } else {
+            return apexPreadators.filter {
+                predator in
+                predator.name.localizedCaseInsensitiveContains(searchTerm)
+            }
+        }
+    }
+    
+    func sort(by alphabetical:Bool){
+        apexPreadators.sort{predator1, predator2 in
+            if alphabetical{
+                predator1.name < predator2.name
+            }else{
+                predator1.id < predator2.id
+            }
+        }
+    }
 }
