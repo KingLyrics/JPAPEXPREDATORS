@@ -46,7 +46,10 @@ struct PredatorDetail: View {
                     
                     //Current location
                     NavigationLink{
-                        
+                        PredatorMap(position: .camera(MapCamera(centerCoordinate: predator.location,
+                                                                distance: 1000,
+                                                                heading:250 ,
+                                                                pitch: 80)))
                     } label:{
                         Map(position:$postion){
                             Annotation(predator.name, coordinate: predator.location) {
@@ -116,6 +119,9 @@ struct PredatorDetail: View {
             .ignoresSafeArea()
         }
         .toolbarBackground(.automatic)
+        .toolbarTitleDisplayMode(.inline)
+
+
     }
 }
 

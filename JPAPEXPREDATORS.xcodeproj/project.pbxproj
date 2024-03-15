@@ -15,6 +15,7 @@
 		A8B9CC9A2BA3018A002BE84F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8B9CC992BA3018A002BE84F /* Preview Assets.xcassets */; };
 		A8B9CCA12BA3022E002BE84F /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = A8B9CCA02BA3022E002BE84F /* jpapexpredators.json */; };
 		A8C900E82BA43ECA0096E7CF /* PredatorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C900E72BA43ECA0096E7CF /* PredatorDetail.swift */; };
+		A8C900EA2BA451F70096E7CF /* PredatorMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C900E92BA451F70096E7CF /* PredatorMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		A8B9CC992BA3018A002BE84F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A8B9CCA02BA3022E002BE84F /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jpapexpredators.json; sourceTree = "<group>"; };
 		A8C900E72BA43ECA0096E7CF /* PredatorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorDetail.swift; sourceTree = "<group>"; };
+		A8C900E92BA451F70096E7CF /* PredatorMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				A8B9CC922BA30188002BE84F /* JPAPEXPREDATORSApp.swift */,
 				A8B9CC942BA30188002BE84F /* ContentView.swift */,
 				A8C900E72BA43ECA0096E7CF /* PredatorDetail.swift */,
+				A8C900E92BA451F70096E7CF /* PredatorMap.swift */,
 				A859C1732BA304DB003B1D66 /* ApexPredator.swift */,
 				A859C1752BA30AAB003B1D66 /* Predators.swift */,
 				A8B9CC962BA3018A002BE84F /* Assets.xcassets */,
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A859C1742BA304DB003B1D66 /* ApexPredator.swift in Sources */,
+				A8C900EA2BA451F70096E7CF /* PredatorMap.swift in Sources */,
 				A8B9CC952BA30188002BE84F /* ContentView.swift in Sources */,
 				A8C900E82BA43ECA0096E7CF /* PredatorDetail.swift in Sources */,
 				A859C1762BA30AAB003B1D66 /* Predators.swift in Sources */,
