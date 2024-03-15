@@ -33,9 +33,7 @@ struct ContentView: View {
                     ForEach(filteredDinos) { predator in
                         VStack(alignment: .leading) {
                             NavigationLink {
-                                Image(predator.image)
-                                    .resizable()
-                                    .scaledToFit()
+                                PredatorDetail(predator: predator)
                             } label: {
                                 HStack {
                                     // Dino image
